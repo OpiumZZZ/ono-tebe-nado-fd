@@ -42,6 +42,19 @@
   padding-top: 0;
 }
 
+.menu-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #000;
+  display: inline-block;
+  align-items: center; 
+}
+
+
 .address {
   display: grid;
   align-items: stretch;
@@ -88,7 +101,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: auto;
-  padding: 165px 50px 138px;
+  padding: 165px 50px 105px;
   font-size: 100px;
   text-transform: uppercase;
   gap: 18px;
@@ -133,7 +146,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 51px 51px 78px;
+  margin: 0px 51px 50px 51px;
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
@@ -157,7 +170,7 @@
 
 .lots {
   position: relative;
-  margin: 179px 0 146px;
+  margin: 179px 0 122px;
   flex-shrink: 0;
   font-family: Raleway, sans-serif;
   color: #fff;
@@ -354,21 +367,10 @@
   padding: 0;
   
 }
-.menu-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1;
-  letter-spacing: 0;
-  color: #000;
-  display: inline-block;
-  align-items: center; 
-}
-a.menu-link-active {
+
+.menu-link.menu-active {
   text-decoration: none;
 }
-
 
 
 
